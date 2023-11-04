@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.continar{
+    width: 730px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f3f3f3;
+}
+
+.continar .hedar{
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.hedar span{
+    font-size: 18px;
+}
+
+.continar .qustion{
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    margin: 10px 0;
+    text-align: center;
+    direction: rtl;
+}
+
+.qustion span{
+    font-size: 18px;
+}
+
+.continar .All-qusiton{
+    font-size: 18px;
+    direction: rtl;
+}
+
+.continar .All-qusiton div{
+    margin: 10px 0;
+    background-color: white;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.continar .All-qusiton div:not(:last-child){
+    border-bottom: 1px solid;
+    
+}
+
+.continar .All-qusiton div input[type = "Radio"]:checked + label{
+    color: #4444ff;
+}
+
+.continar .All-qusiton div label{
+    width: 100%;
+    cursor: pointer;
+}
+
+.continar button{
+    width: 100%;
+    padding: 10px;
+    background-color: #4444ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.result{
+    font-size: 22px;
+    margin: 10px 0;
+    padding: 20px;
+    background-color: white;
+}
+
+.result span{
+    color: green;
+}
